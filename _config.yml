@@ -55,7 +55,7 @@ plugins:
 
 author:
   name: "Charles Chi"
-  avatar: "/assets/images/avatar.jpg"
+  avatar: "/assets/images/avatar.webp"
   bio: "我是一名软件工程师，在这里，我会记录一些自己所学、所想的东西"
   links:
     - label: "GitHub"
