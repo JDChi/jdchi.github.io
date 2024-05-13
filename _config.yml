@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 老得太快，聪明得太晚
+title: Chi's Blog
 minimal_mistakes_skin: default
 search: true
 
@@ -53,14 +53,21 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+atom_feed:
+  hide: true
+
 author:
   name: "Charles Chi"
   avatar: "/assets/images/avatar.webp"
-  bio: "我是一名软件工程师，在这里，我会记录一些自己所学、所想的东西"
+  bio: "Leaving something behind in my life"
+# modify the icon from https://fontawesome.com/icons
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JDChi"
+    - label: " CSDN"
+      icon: "fa-solid fa-blog"
+      url: "https://blog.csdn.net/u013066292"
 
 defaults:
   # _posts
